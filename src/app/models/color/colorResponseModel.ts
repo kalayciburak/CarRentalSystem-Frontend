@@ -3,6 +3,4 @@ import {Color} from "./color";
 
 export interface ColorResponseModel extends ResponseModel{
     data: Color[];
-    success: boolean;
-    message: string;
 }
